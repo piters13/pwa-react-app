@@ -8,12 +8,14 @@ function App() {
 	return (
 		<Router>
 			<Suspense fallback={<div>Loading...</div>}>
+				
 				<nav>
 					<ul>
 						<li><Link to="/">Home</Link></li>
 						<li><Link to="/about">About</Link></li>
 					</ul>
 				</nav>
+				
 				<Switch>
 					<Route path="/about">
 						<About />
@@ -22,6 +24,7 @@ function App() {
 						<Home />
 					</Route>
 				</Switch>
+			
 			</Suspense>
 		</Router>
 	);

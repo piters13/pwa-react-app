@@ -1,6 +1,6 @@
 {
   "short_name": "Margan App",
-  "name": "PWA React App",
+  "name": "Weather PWA React App",
   "icons": [
     {
       "src": "favicon.ico",
